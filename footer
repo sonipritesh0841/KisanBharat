@@ -1,0 +1,139 @@
+<button class="chatbot-button" title="Help and Resources">
+    <span><a href="FAQs.html">?</a></span>
+</button>
+
+
+<footer>
+            <div class="footer">
+                <div class="firstfooter">
+                    <ul>
+                        <li id="headings">MAY WE HELP YOU?</li>
+                        <li><a href="">Get in Touch</a></li>
+                        <li><a href="">My Orders</a></li>
+                        <li><a href="">FAQS</a></li>
+                        <li><a href="">Email Unsubscribe</a></li>
+                        <li><a href="">Join Us</a></li>
+                    </ul>
+                </div>
+                <div class="secondfooter">
+                    <ul>
+                        <li id="headings">THE COMPANY</li>
+                        <li><a href="">About KisaanBharat</a></li>
+                        <li><a href="">Code of Ethics</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Legal</a></li>
+                        <li><a href="">Privacy & Cookie Policy</a></li>
+                        <li><a href="">Corporate Information</a></li>
+                    </ul>
+                </div>
+                <div class="thirdfooter">
+                    <ul>
+                        <li id="headings">CONNECT US</li>
+                        <li><a href="">Soil Experts</a></li>
+                        <li><a href="">Plant Experts</a></li>
+                        <li><a href="">Business Experts</a></li>
+                    </ul>
+                </div>
+                <div class="fourthfooter">
+                    <ul>
+                        <li id="headings">SOCIAL MEDIA</li>
+                        <li><a href="instagram.com/kisaanbharat/">Instagram</a> </li>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="community.html">Community</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="brand-name">
+                <h3><a href="" style="text-decoration: none; color: green;">KISAANBHARAT</a>
+                </h3>
+            </div>
+
+            <div class="rightsfooter">
+                &#0169; www.kisaanbharat.com | All rights reserved
+            </div>
+        </footer>
+
+style:
+
+.chatbot-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #8fbf9f;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease-out;
+}
+
+.chatbot-button a{
+    color: black;
+    text-decoration: none;
+}
+
+.chatbot-button:hover {
+    transform: translateY(-5px);
+}
+
+
+
+        footer {
+            background-color: #f4fff4;
+            height: 36vh;
+        }
+        
+        .footer {
+            display: flex;
+            padding: 30px 80px;
+            justify-content: space-evenly;
+        }
+        
+        .footer ul {
+            list-style: none;
+        }
+        
+        .footer ul li {
+            margin: 8px;
+        }
+        .footer ul li a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .footer>div {
+            width: 223px;
+        }
+        
+        .firstfooter {
+            font-family: Inconsolata;
+        }
+        
+        #headings{
+            color: black;
+            font-weight: 600;
+        }
+        #headings:hover{
+            color: green;
+            font-weight: 600;
+        }
+        
+        .brand-name {
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+        }
+        .rightsfooter {
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+        }
